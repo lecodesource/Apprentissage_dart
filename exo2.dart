@@ -7,7 +7,7 @@ void main(){
   int voyelle = 0;
 
   for(int i=0;i<phrase.length;i++){
-    if("aeiouAEIOU".contains(phrase[i])){
+    if("aeiouyAEIOUY".contains(phrase[i])){
       voyelle++;
 
     }
